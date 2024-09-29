@@ -1,13 +1,13 @@
-#include "Student.h"
 #include <iostream>
+#include "applicationDriver.h"
 
 int main() 
 {
-    // Create a student object
-    Student student1("S001", "Alice", "Mechanical Engineering", 3, "alice@example.com");
 
-    // Display student information
-    student1.display();
+    //EquipmentManager equipmentObj;
 
+    ApplicationDriver driverObj;
+    driverObj.runMenue();
+   
     return 0;
 }

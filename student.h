@@ -13,9 +13,10 @@ class Student
         int year;
         std::string contactInfo;
 
-        Student(std::string id, std::string n, std::string c, int y, std::string ci);
-
-        void display();
+        Student(std::string id, std::string name, std::string cource, int year, std::string contactInfo);
+        void displayStudentDetails();
+        void requestEquipment(std::string equipmentID);
+        void returnEquipment(std::string equipmentID);
     private:
 };
 
